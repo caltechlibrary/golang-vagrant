@@ -1,5 +1,5 @@
 
-# Golang on Linux
+# Golang-Vagrant
 
 This is a vagrant repository to make it easy to compile Go on Linux (Debian/Stretch).
 If Vagrant is already installed the following should bring up a Vagrant instance,
