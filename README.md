@@ -1,12 +1,13 @@
 
-# Go on Linux
+# Golang on Linux
 
-This is a vagrant repository to make it easy to compile Go on Linux (Debian/Jessie64).
+This is a vagrant repository to make it easy to compile Go on Linux (Debian/Stretch).
+If Vagrant is already installed the following should bring up a Vagrant instance,
+compile Go 1.4.3 and 1.10.
 
-The vagrant file was created with
 
 ```shell
-    vagrant init debian/stretch64
+    vagrant up
 ```
 
 Then follow the steps in [Final-Steps.md](Final-Steps.md)
