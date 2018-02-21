@@ -70,7 +70,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get upgrade -y
-    apt-get install -y build-essential git
+    apt-get install -y build-essential git zip
     cd /home/vagrant
     export HOME="/home/vagrant"
     echo "Working directory $(pwd)"
